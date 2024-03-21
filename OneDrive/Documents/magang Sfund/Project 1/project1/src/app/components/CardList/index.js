@@ -1,7 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 
-
 const Card = ({ products }) => {
     return (
         <div className="grid grid-cols">
