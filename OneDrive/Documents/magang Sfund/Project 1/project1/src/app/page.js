@@ -45,7 +45,7 @@ const Home = () => {
                     </a>
                   </h3>
                   <p className="mt-1 text-sm text-gray-500">{product.thumbline}</p>
-                  <p className="mt-1 text-sm text-gray-500">{product.category}</p> {/* Tambahan category di sini */}
+                  <p className="mt-1 text-sm text-gray-500">{product.category}</p>
                 </div>
                 <p className="text-sm font-medium text-gray-900">{new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(product.price)}</p>
               </div>
